@@ -32,7 +32,7 @@ async function HomePage({ params }) {
       categories={categories}
       selectedCategory={{
         id: params.category?.[0] ?? "",
-        movies: selectedCategory ? selectedCategory.slice(0, 7) : [],
+        movies: selectedCategory ? selectedCategory.slice(0, 12) : [],
       }}
     />
   );

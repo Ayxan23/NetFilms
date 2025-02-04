@@ -32,7 +32,7 @@ function FeaturedMovie({ movie = {}, isCompact = true }) {
           unoptimized
           src={`https://image.tmdb.org/t/p/original${poster_path}`}
           alt={title}
-          fill
+          fill={true}
         />
       </div>
     </div>
